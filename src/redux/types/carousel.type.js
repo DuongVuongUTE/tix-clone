@@ -1,0 +1,3 @@
+export const CAROUSEL_ACTION = {
+  GET_CAROUSEL: "GET_CAROUSEL",
+};

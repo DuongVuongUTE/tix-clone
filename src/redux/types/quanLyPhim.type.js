@@ -1,0 +1,3 @@
+export const QUANLYPHIM_ACTION = {
+  GET_LIST_FILM: "GET_LIST_FILM",
+};
