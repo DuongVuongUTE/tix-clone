@@ -8,7 +8,7 @@ export const getListPhimAction = () => {
       dispatch({
         type: QUANLYPHIM_ACTION.GET_LIST_FILM,
         payload: {
-          data: result.data.content,
+          data: result.data,
         },
       });
     } catch (error) {

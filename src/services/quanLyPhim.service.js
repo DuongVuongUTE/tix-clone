@@ -1,9 +1,10 @@
-import { GROUP_ID } from "../utils/settings/config";
+import axios from "axios";
+import { DOMAIN, GROUP_ID } from "../utils/settings/config";
 import { baseService } from "./base.service";
 
 class QuanLyPhimSevice extends baseService {
   layDanhSachBanner = () => {
-    return this.get(`/api/QuanLyPhim/LayDanhSachBanner`);
+    return axios.get(`${DOMAIN}/api/QuanLyPhim/LayDanhSachBanner`);
   };
 
   layDanhSachPhim = () => {
