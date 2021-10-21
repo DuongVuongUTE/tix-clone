@@ -15,10 +15,10 @@ const bannerStyle = {
 function HomeCarousel() {
   const { carouselList } = useSelector((state) => state.carouselReducer);
 
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(getCarouselAction());
-  }, [dispatch]);
+  // const dispatch = useDispatch();
+  // useEffect(() => {
+  //   dispatch(getCarouselAction());
+  // }, [dispatch]);
   const renderBanner = () => {
     return carouselList.map((slide) => (
       <div key={slide.maBanner}>
