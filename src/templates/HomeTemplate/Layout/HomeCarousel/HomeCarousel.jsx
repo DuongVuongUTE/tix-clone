@@ -6,7 +6,7 @@ import { getCarouselAction } from "../../../../redux/actions/carousel.action.js"
 import "./carousel.css";
 
 const bannerStyle = {
-  height: "calc(100vh - 6rem)",
+  paddingBottom: "43%",
   backgroundPosition: "center",
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
@@ -24,7 +24,7 @@ function HomeCarousel() {
       <div key={slide.maBanner}>
         <div style={{ background: `url(${slide.hinhAnh})`, ...bannerStyle }}>
           <img
-            className="w-full object-cover opacity-0"
+            className="w-full h-0 object-cover hidden opacity-0"
             src={slide.hinhAnh}
             alt={slide.hinhAnh}
           />
