@@ -17,7 +17,7 @@ function HomeMenu({ heThongRapChieu }) {
         }
         key={heThongRap.maHeThongRap}
       >
-        <Tabs tabPosition="left">
+        <Tabs tabPosition="left" className="tabs-custom-child">
           {heThongRap.lstCumRap?.map((cumRap) => (
             <TabPane
               tab={
