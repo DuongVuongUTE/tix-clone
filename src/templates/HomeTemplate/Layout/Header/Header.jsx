@@ -4,7 +4,7 @@ import "./header.css";
 function Header() {
   return (
     <>
-      <header className="bg-gray-800 text-white fixed top-0 left-0 w-full z-50">
+      <header className="bg-gray-800 text-white fixed top-0 left-0 w-full z-50 px-4">
         <div className="container flex justify-between h-16 mx-auto">
           <Link
             to="/"

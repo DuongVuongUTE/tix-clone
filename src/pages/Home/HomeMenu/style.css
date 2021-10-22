@@ -1,0 +1,28 @@
+.ant-tabs-nav,
+.ant-tabs-content-holder {
+  height: 705px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.ant-tabs-nav {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.ant-tabs-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.ant-tabs-content-holder::-webkit-scrollbar {
+  width: 4px;
+}
+
+.ant-tabs-content-holder::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.ant-tabs-content-holder::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+.tabs-custom .ant-tabs-tabpane {
+  padding-left: 0 !important;
+}
